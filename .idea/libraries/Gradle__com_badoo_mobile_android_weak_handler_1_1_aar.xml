@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.badoo.mobile:android-weak-handler:1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7cf85c51cc601fa11e97c0bb38ebd6a/android-weak-handler-1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7cf85c51cc601fa11e97c0bb38ebd6a/android-weak-handler-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7cf85c51cc601fa11e97c0bb38ebd6a/android-weak-handler-1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

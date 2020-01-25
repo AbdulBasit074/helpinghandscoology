@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackall"
+    android:id="@+id/content_main1"
+    tools:showIn="@layout/app_bar_main2_classpage1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/not_show"
+        tools:ignore="MissingConstraints"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOIN ClASSES"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:typeface="serif"
+            android:textSize="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:id="@+id/title"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/buttonstyle"
+            >
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layoutAnimation="@anim/layout_animation_fall_down"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </ScrollView>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:indeterminateTint="#94C2BFBF"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prog6"
+
+        />
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_draggable="true"
+        app:bmb_highlightedColor="#1A1919"
+        app:bmb_normalColor="#1D1C1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
+

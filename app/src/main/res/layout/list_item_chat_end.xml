@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ed_pr"
+        android:src="@drawable/profile_pic"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/ed_pr"
+
+
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="40dp"
+
+        android:layout_marginRight="40dp"
+
+        android:layout_marginBottom="3dp"
+        android:background="#342196F3"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="1dp">
+
+        <TextView
+            android:id="@+id/tvMessage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#572196F3"
+            android:padding="5dp"
+            android:typeface="serif"
+
+            android:text="Message"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:typeface="serif"
+            android:background="#342196F3"
+            android:padding="@dimen/list_item_padding"
+            android:text="Abdul Basit"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

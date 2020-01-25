@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackall"
+    tools:context=".CopyLeaksLibrary"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tit_submit"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:elevation="100dp"
+        app:cardMaxElevation="40dp"
+        android:background="#8F1B1209"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#601B1209"
+            android:padding="7dp"
+            android:id="@+id/whole_submit"
+            >
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/profile_submit"
+                android:src="@drawable/triad_ring"
+
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:id="@+id/name_submit"
+                android:text="Loading..."
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:autoSizeMaxTextSize="100sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeStepGranularity="3sp"
+                android:autoSizeTextType="uniform"
+                />
+
+            <ImageView
+                android:id="@+id/detail_assigment"
+                android:layout_width="60dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/rightarrow"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assigment"
+        android:id="@+id/assigment_tag"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMITTED\n         BY "
+        android:layout_marginTop="20dp"
+
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/tit_submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/card_view_submit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+
+
+        />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_submit"
+        android:text="Submitted Date :"
+        android:layout_marginTop="25dp"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="28dp"
+        android:drawablePadding="10dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/assigment_tag"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/time_submit"
+        android:layout_height="wrap_content"
+        android:text="Submitted Time :"
+        android:layout_marginTop="15dp"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="28dp"
+        android:drawablePadding="10dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/date_submit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal"
+        >
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/time_submit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="#601B1209"
+        android:layout_marginTop="60dp"
+        >
+
+        <ImageView
+            android:id="@+id/icon_u_submit"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:src="@drawable/attached" />
+
+
+
+
+        <Button
+            android:id="@+id/view_submit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:background="@drawable/visibility"
+            android:textColor="#ffffff"
+            android:layout_gravity="end"
+            android:padding="10dp"
+            android:layout_marginRight="135dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="1sp"
+            />
+        <ImageView
+            android:id="@+id/mark_submit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+
+            android:background="@drawable/checkdoc"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+
+            android:layout_marginLeft="90dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="1sp"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

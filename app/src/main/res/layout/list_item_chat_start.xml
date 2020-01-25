@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ed_pr"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/profile_pic"
+        />
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="30dp"
+        android:background="#342196F3"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="1dp"
+        android:layout_toRightOf="@id/ed_pr"
+        android:padding="10dp"
+        android:paddingRight="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvMessage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+
+            android:background="#342196F3"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/tvMessage"
+            android:background="#342196F3"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="@dimen/list_item_padding"
+            android:text="Abdul Basit"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

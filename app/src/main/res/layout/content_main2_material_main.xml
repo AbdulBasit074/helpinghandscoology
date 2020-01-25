@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homeswap"
+    android:background="@drawable/blackall"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload_menud"
+        android:layout_marginLeft="50dp"
+                android:gravity="end"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+
+
+        app:layout_constraintHorizontal_bias="1"
+
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/upload_file"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+
+            app:srcCompat="@drawable/add"
+            />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="46dp"
+            android:layout_height="41dp"
+
+
+            android:visibility="invisible"
+            app:srcCompat="@drawable/delete" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:layout_constraintHorizontal_bias="0.47"
+        android:typeface="serif"
+
+        />
+
+
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/upload_menud"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="#FA1B1209"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/darkblack"
+        >
+        <ImageView
+            android:id="@+id/icon_u"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/word"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/size_u"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="size"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="35dp"
+            android:typeface="serif"
+            />
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cross"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="end"
+            />
+
+        <TextView
+            android:id="@+id/name_u"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/list_item_padding"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Abdul Basit"
+            android:layout_marginLeft="90dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="1sp"
+            android:typeface="serif"
+
+
+
+            />
+         <ImageView
+            android:id="@+id/final_u"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/uploadfile"
+            android:layout_gravity="end"
+             android:layout_marginRight="40dp"
+             android:padding="10dp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/file"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/card_view_up"
+        android:padding="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+
+
+        />
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_draggable="true"
+        app:bmb_highlightedColor="#8F1F1E1D"
+        app:bmb_normalColor="#922C2C2A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="20dp"
+        />
+</android.support.constraint.ConstraintLayout>

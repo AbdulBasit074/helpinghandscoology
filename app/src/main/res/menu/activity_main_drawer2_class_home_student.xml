@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group1"
+    >
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/Classs"
+            android:icon="@drawable/classs"
+            android:title="Class"/>
+
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/chat"
+            android:title="Chat"/>
+
+        <item
+            android:id="@+id/assign"
+            android:icon="@drawable/assigment"
+            android:title="Assigment"/>
+        <item
+            android:id="@+id/mater"
+            android:icon="@drawable/material"
+            android:title="Material"/>
+        <item
+            android:id="@+id/mem"
+            android:icon="@drawable/member"
+            android:title="Member"
+            />
+        <item
+            android:id="@+id/classes"
+            android:icon="@drawable/blackboard"
+            android:title="Classes"
+            />
+        <item
+            android:id="@+id/pro"
+            android:icon="@drawable/profile"
+            android:title="Profile"
+            />
+
+    </group>
+
+    <item android:title="Info"
+        >
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+            <item
+                android:id="@+id/aboutclass"
+                android:icon="@drawable/mainicon"
+                android:title="About Class"/>
+        </menu>
+    </item>
+
+</menu>

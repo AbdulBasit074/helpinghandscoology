@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">839159418800-8tt2qr02d4qbfgj3mml1cf4odpirhbj6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://classdream-a85b4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">839159418800</string>
+    <string name="google_api_key" translatable="false">AIzaSyAZI4JNFSmew64SBvCGARuJxvbDqkd-CCE</string>
+    <string name="google_app_id" translatable="false">1:839159418800:android:0f2d47cb84d9b5a7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAZI4JNFSmew64SBvCGARuJxvbDqkd-CCE</string>
+    <string name="google_storage_bucket" translatable="false">classdream-a85b4.appspot.com</string>
+    <string name="project_id" translatable="false">classdream-a85b4</string>
+</resources>

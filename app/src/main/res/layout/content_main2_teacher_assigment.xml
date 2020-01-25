@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homeswap"
+    android:background="@drawable/blackall"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/detail"
+        android:textSize="30dp"
+        android:textColor="@color/ACP_CAN"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:drawableLeft="@drawable/title_tag"
+        android:layout_marginTop="20dp"
+
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/tit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/time_a"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="title.."
+        android:textSize="20dp"
+        android:id="@+id/tilee"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonstyle1"
+        android:padding="15dp"
+
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/tit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instruction"
+        android:drawableLeft="@drawable/instruction"
+        android:layout_marginTop="7dp"
+
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:drawablePadding="10dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/tilee"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/instruction_I"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="instruction"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:background="@drawable/buttonstyle1"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        app:layout_constraintTop_toBottomOf="@+id/tilee"
+        android:layout_marginTop="45dp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_a"
+        android:text="Upload Date :"
+        android:layout_marginTop="25dp"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="28dp"
+        android:drawablePadding="10dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/detail"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/time_a"
+        android:layout_height="wrap_content"
+        android:text="Upload Time :"
+        android:layout_marginTop="15dp"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="28dp"
+        android:drawablePadding="10dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintTop_toBottomOf="@id/date_a"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0"
+
+        />
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonstyle1"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/instruction_I">
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/card_view_material_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#3C3636"
+            android:padding="10dp"
+            app:cardBackgroundColor="#4A1B1209"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+
+            <ImageView
+                android:id="@+id/icon_file_view_a"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="5dp"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/file_name_view_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:padding="@dimen/list_item_padding"
+                android:text="Loading"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/submissiona"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+
+                 android:src="@drawable/submission"
+                android:background="@color/blue"
+                android:layout_gravity="end"
+                android:textColor="@color/ACP_CAN"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/download_a"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+
+                android:padding="10dp"
+                android:src="@drawable/downlo" />
+
+            <ImageView
+                android:id="@+id/saw_a"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+
+                android:padding="10dp"
+                android:src="@drawable/visibility" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="textOutsideCircle"
+        app:bmb_draggable="true"
+        app:bmb_highlightedColor="#8F2C2B29"
+        app:bmb_normalColor="#9222201E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="20dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

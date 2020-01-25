@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E69020</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="darkbrown">#1B1A1A</color>
+
+    <color name="white">#FEFFFE</color>
+    <color name="ACP_CAN">#FD090808</color>
+    <color name="itemmenu">#2AF1C27D</color>
+    <color name="itemmenu2">#F5F5F5</color>
+
+    <color name="color_log_in">#751B1209</color>
+    <color name="color_sign_up">#A1F1C27D</color>
+
+
+    <color name="color_logo_log_in">#b4faf5</color>
+    <color name="color_logo_sign_up">#bbc4fd</color>
+
+    <color name="color_label">#ededed</color>
+    <color name="white_transparent">#00FAFAFA</color>
+
+    <color name="color_input_hint">#FFF</color>
+    <color name="color_text_highlight">#fafafa</color>
+    <color name="color_text">#FFF</color>
+    ///////////////////////////////////////////////////////////////////////
+
+    <color name="blue">#03A9F4</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ///////////////////////////////ALERT////////////////////////////////
+
+        <color name="float_transparent">#00000000</color>
+        <color name="sweet_dialog_bg_color">#FFFFFF</color>
+        <color name="button_text_color">#FFFFFF</color>
+         <color name="click">#95F1C27D</color>
+         <color name="again_click">#9A1B1209</color>
+
+
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+        <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+        <color name="blue_btn_bg_color">#AEDEF4</color>
+        <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+        <color name="red_btn_bg_color">#DD6B55</color>
+        <color name="red_btn_bg_pressed_color">#CD5B55</color>
+        <color name="error_stroke_color">#F27474</color>
+        <color name="success_stroke_color">#A5DC86</color>
+        <color name="trans_success_stroke_color">#33A5DC86</color>
+        <color name="warning_stroke_color">#F8BB86</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+        <color name="material_deep_teal_50">#ff009688</color>
+
+
+    //////////////////////FOR SPLASH///////////////////////////////
+    <color name="Wheat2">#ffcc40</color>
+    <color name="back2">#272525</color>
+
+
+</resources>

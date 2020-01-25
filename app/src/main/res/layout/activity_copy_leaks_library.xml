@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackall"
+    tools:context=".CopyLeaksLibrary"
+    >
+
+    <ProgressBar
+        android:id="@+id/loading23"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/percentage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/loading23"
+        android:elevation="100dp"
+        app:cardMaxElevation="40dp"
+        android:background="@drawable/buttonstyle"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#001B1209"
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkblack"
+                android:padding="7dp"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:id="@+id/percentage_image"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp"
+                    android:src="@drawable/triad_ring"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="COPY"
+                    android:textAlignment="center"
+                    android:padding="2dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/mainallback"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress_percentage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+                        app:dotColor="@color/red_btn_bg_color"
+                        app:dotWidth="16dp"
+                        app:textSize="20sp"
+                        app:drawDot="true"
+                        app:startAngle="0"
+
+                        app:enableProgressAnimation="true"
+                        app:progressBackgroundStrokeWidth="8dp"
+                        app:progressCap="round"
+                        app:progressColor="@color/red_btn_bg_color"
+                        app:progressStrokeWidth="16dp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"
+                        android:text="Percentage"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+
+                    >
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress_expected"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="13dp"
+                        app:dotColor="#FFEB3B"
+                        app:dotWidth="16dp"
+                        app:drawDot="true"
+                        app:startAngle="0"
+                        app:textSize="20sp"
+                        app:enableProgressAnimation="true"
+                        app:progressBackgroundStrokeWidth="8dp"
+                        app:progressCap="round"
+                        app:progressColor="#FFEB3B"
+                        app:progressStrokeWidth="16dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="5dp"
+
+                        android:textColor="@color/white"
+                        android:text="Expected Result"
+                        android:layout_gravity="center"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/mark1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/buttonstyle1"
+                    android:text="Mark"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plagrism"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percentage"
+        android:elevation="100dp"
+        app:cardMaxElevation="40dp"
+        android:background="#611B1209"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#001B1209"
+
+            >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                android:background="@drawable/darkblack"
+                android:padding="7dp"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:id="@+id/copy_word_image"
+                    android:layout_gravity="center"
+                    android:layout_height="70dp"
+                    android:src="@drawable/triad_ring"
+                    android:padding="3dp"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Words"
+                    android:textAlignment="center"
+                    android:padding="2dp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@drawable/mainallback"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress_copied"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+
+                        app:dotColor="@color/red_btn_bg_color"
+                        app:dotWidth="16dp"
+                        app:textSize="20sp"
+                        app:drawDot="true"
+                        app:startAngle="0"
+
+                        app:enableProgressAnimation="true"
+                        app:progressBackgroundStrokeWidth="8dp"
+                        app:progressCap="round"
+                        app:progressColor="@color/red_btn_bg_color"
+                        app:progressStrokeWidth="16dp"
+
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/white"
+                        android:text="Copied"
+                        android:layout_gravity="center"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+
+                    >
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress_identical"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+                        app:dotColor="#3F51B5"
+                        app:dotWidth="16dp"
+                        app:drawDot="true"
+                        app:startAngle="0"
+
+                        app:enableProgressAnimation="true"
+                        app:progressBackgroundStrokeWidth="6dp"
+                        app:progressCap="round"
+                        app:progressColor="#3F51B5"
+                        app:progressStrokeWidth="16dp"
+
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="5dp"
+
+                        android:textColor="@color/white"
+                        android:text="Identical"
+                        android:layout_gravity="center"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+
+                    >
+
+                    <antonkozyriatskyi.circularprogressindicator.CircularProgressIndicator
+                        android:id="@+id/circular_progress_total"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+
+                        app:dotColor="#FFEB3B"
+                        app:dotWidth="16dp"
+                        app:textSize="20sp"
+                        app:drawDot="true"
+                        app:startAngle="0"
+                        app:enableProgressAnimation="true"
+                        app:progressBackgroundStrokeWidth="8dp"
+                        app:progressCap="round"
+                        app:progressColor="#FFEB3B"
+                        app:progressStrokeWidth="16dp"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="5dp"
+
+                        android:textColor="@color/white"
+                        android:text="Total"
+                        android:layout_gravity="center"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultdetailfull"
+        android:layout_marginTop="3dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plagrism"
+        android:elevation="100dp"
+        app:cardMaxElevation="40dp"
+        android:background="#D21B1209"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/mainallback"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETAIL"
+                android:layout_margin="8dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:background="@drawable/mainallback"
+                    >
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:id="@+id/webview"
+                        android:scrollbars="vertical"
+                        >
+                    </WebView>
+
+
+
+                </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

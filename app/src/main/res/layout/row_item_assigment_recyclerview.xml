@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:id="@+id/assigment_press"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/file_image"
+            android:src="@drawable/upload_browser"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/file_name"
+            android:text="Loading . . . "
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/file_image"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textColor="#F5F2F2"
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_date_1"
+                android:text=""
+                android:textColor="#F5F2F2"
+                android:inputType="datetime"
+                android:padding="5dp"
+                android:layout_alignParentEnd="true"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_time_1"
+                android:text=""
+                android:textColor="#F8F3F3"
+                android:inputType="datetime"
+                android:layout_toRightOf="@+id/file_image"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/last_date_1"
+                android:text=""
+                android:textColor="#F5F2F2"
+                android:layout_marginTop="30dp"
+                android:inputType="datetime"
+                android:padding="5dp"
+                android:layout_alignParentEnd="true"
+
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        app:cardBackgroundColor="#48311F11"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="7dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:lineHeight="20dp"
+            android:text="Loading . . ."
+            android:textColor="#F3F1F1"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/post_title_1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:lineHeight="20dp"
+            android:text=""
+            android:textColor="#FAF8F8"
+
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/post_inst_1"
+            />
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>

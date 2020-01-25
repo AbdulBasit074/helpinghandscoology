@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Assigments_Upload"
+    android:background="@drawable/blackall"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload_menu_1"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/buttonstyle"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:text="Assigment"
+           android:textColor="#ffffff"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:typeface="serif"
+           />
+
+        <EditText
+            android:id="@+id/title_assign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginRight="25dp"
+            android:drawableLeft="@drawable/title_tag"
+            android:drawablePadding="10dp"
+            android:hint="Title"
+
+            android:textColor="#ffffff"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/instruction_assign"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="Instruction"
+            android:drawableLeft="@drawable/instruction"
+            android:drawablePadding="10dp"
+            android:inputType="textMultiLine"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:overScrollMode="always"
+            android:textColorHint="@color/white"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_menu"
+        android:orientation="horizontal"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+
+
+        <Button
+            android:id="@+id/end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="END DATE"
+            android:padding="10dp"
+            android:typeface="serif"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:background="@color/ACP_CAN"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:padding="10dp"
+            android:id="@+id/end_time"
+            android:typeface="serif"
+            android:layout_marginLeft="80dp"
+            android:textSize="10dp"
+            android:background="@color/ACP_CAN"
+            />
+         </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/upload_menu_1"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="120dp"
+
+        android:padding="10dp"
+        app:cardBackgroundColor="#4B291B0E"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:id="@+id/icon_u_assign"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/attached"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/size_u_assign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="35dp"
+            />
+
+        <TextView
+            android:id="@+id/name_u_assign"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:padding="@dimen/list_item_padding"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Attach File"
+            android:layout_marginLeft="90dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="16sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="1sp"
+            />
+
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:id="@+id/final_u_assign"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/uploadfile"
+        android:background="@drawable/darkblack"
+        app:layout_constraintLeft_toRightOf="@id/card_view_up"
+        app:layout_constraintTop_toBottomOf="@id/upload_menu_1"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/final_upload"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/upload_browser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_view_up"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

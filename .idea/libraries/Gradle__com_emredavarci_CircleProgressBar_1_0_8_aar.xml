@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.emredavarci:CircleProgressBar:1.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b23af8e98ae36d6a5597207c44bfa53/CircleProgressBar-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b23af8e98ae36d6a5597207c44bfa53/CircleProgressBar-1.0.8/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emredavarci/CircleProgressBar/1.0.8/297b7b4c4c21d4f63579a862a48f1aee88ce496a/CircleProgressBar-1.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.emredavarci/CircleProgressBar/1.0.8/297b7b4c4c21d4f63579a862a48f1aee88ce496a/CircleProgressBar-1.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

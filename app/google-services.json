@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "839159418800",
+    "firebase_url": "https://classdream-a85b4.firebaseio.com",
+    "project_id": "classdream-a85b4",
+    "storage_bucket": "classdream-a85b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839159418800:android:0f2d47cb84d9b5a7",
+        "android_client_info": {
+          "package_name": "com.example.classdream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839159418800-9qooquv67dctkjgeuabqi92bnutud0fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classdream",
+            "certificate_hash": "27cb5880fa3d49aa9c9a153c8217416634aae2bf"
+          }
+        },
+        {
+          "client_id": "839159418800-8t516rdhm5qobpp4vdvq1mini21fl0r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classdream",
+            "certificate_hash": "6e676fc393464dcdcfe81482ce64b0f21bdf606d"
+          }
+        },
+        {
+          "client_id": "839159418800-8tt2qr02d4qbfgj3mml1cf4odpirhbj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZI4JNFSmew64SBvCGARuJxvbDqkd-CCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839159418800-8tt2qr02d4qbfgj3mml1cf4odpirhbj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839159418800:android:5e5aabde8d913d2ab25075",
+        "android_client_info": {
+          "package_name": "com.nrohmen.roomchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839159418800-276aqv9b7d1ddgjjbqtm010s65ld803h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nrohmen.roomchat",
+            "certificate_hash": "6e676fc393464dcdcfe81482ce64b0f21bdf606d"
+          }
+        },
+        {
+          "client_id": "839159418800-8tt2qr02d4qbfgj3mml1cf4odpirhbj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZI4JNFSmew64SBvCGARuJxvbDqkd-CCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839159418800-8tt2qr02d4qbfgj3mml1cf4odpirhbj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

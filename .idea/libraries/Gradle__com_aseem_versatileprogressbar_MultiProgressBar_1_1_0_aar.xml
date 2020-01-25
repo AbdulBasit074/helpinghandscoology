@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aseem.versatileprogressbar:MultiProgressBar:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5047dabb16f191cb64da7dc6cef26ff/MultiProgressBar-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5047dabb16f191cb64da7dc6cef26ff/MultiProgressBar-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aseem.versatileprogressbar/MultiProgressBar/1.1.0/b444523b69f1c2de623f8311c0324ad400f9852f/MultiProgressBar-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aseem.versatileprogressbar/MultiProgressBar/1.1.0/9822dd000d64adb73e6dd8a4bd011de4e8ee3c78/MultiProgressBar-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

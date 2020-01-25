@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/onclick"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#E6E6E6"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        card_view:cardElevation="300dp"
+        android:elevation="300dp"
+        app:cardMaxElevation="300dp"
+        android:background="@drawable/buttonstyle"
+        >
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fram1"
+            >
+
+            <ImageView
+                android:id="@+id/class_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                card_view:ignore="MissingConstraints"
+
+                card_view:layout_editor_absoluteX="0dp"
+                card_view:layout_editor_absoluteY="-20dp"
+                android:background="@drawable/blub"
+                />
+
+            <TextView
+                    android:id="@+id/class_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@drawable/ic_class_black_24dp"
+                    android:text="SP_16_BSE WAH ISLAMABAD"
+                    android:typeface="serif"
+                    android:drawablePadding="20dp"
+                    android:textColor="#F1F1F1"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMaxTextSize="28sp"
+                    app:autoSizeMinTextSize="12sp"
+                    android:textSize="20dp"
+                    app:autoSizeStepGranularity="4sp"
+                    app:layout_constraintTop_toBottomOf="@id/class_image"
+                    android:background="@drawable/mainallback"
+                    android:padding="10dp"
+                    />
+
+            <TextView
+                android:id="@+id/class_key"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/mainallback"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="EMPTY"
+                android:textColor="#F7F4F4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:autoSizeMaxTextSize="28sp"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeStepGranularity="4sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintTop_toBottomOf="@id/class_title"
+                card_view:layout_editor_absoluteX="0dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

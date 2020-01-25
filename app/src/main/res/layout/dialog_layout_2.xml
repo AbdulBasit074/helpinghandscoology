@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2B2929"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:drawableStart="@drawable/class_name_icon"
+        android:drawablePadding="5dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        android:id="@+id/data0"
+        android:hint="Class Name (Required)"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="5dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        android:id="@+id/data1"
+        android:hint="Section"
+        android:drawableStart="@drawable/section_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="5dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        android:id="@+id/data2"
+        android:hint="Subject"
+        android:drawableStart="@drawable/subject_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+</LinearLayout>
