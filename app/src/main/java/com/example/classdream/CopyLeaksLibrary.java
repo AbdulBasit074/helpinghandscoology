@@ -416,7 +416,7 @@ public class CopyLeaksLibrary extends AppCompatActivity
         ResultRecord[] results;
 
         ProcessOptions scanOptions = new ProcessOptions();
-        scanOptions.setSandboxMode(false);
+        scanOptions.setSandboxMode(true);
         createdProcess = copyleaks.CreateByUrl(new URI(file_detail.FILE_DOWNLOAD_URL), scanOptions);
         System.out.println("Scanning...");
         int percents1 = 0;
