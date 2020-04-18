@@ -15,7 +15,7 @@ In comparison between this app and existing apps, this app include dictionary an
 One Signal (https://onesignal.com/)
 Oxforddictionaries (https://developer.oxforddictionaries.com/)
 copyleaks plagiarism checker (https://api.copyleaks.com/)
-# Contact
-Contact (https://abdulbasit-info.odoo.com/)
+
+
 
 
